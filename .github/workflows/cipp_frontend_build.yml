@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: github.event.repository.fork == false
+    if: github.repository == 'tinyskapie/CIPP'
     name: Build and Upload CIPP Frontend
     runs-on: ubuntu-latest
 
